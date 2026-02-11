@@ -82,7 +82,6 @@ public class CloneBackupOfferingCmd extends BaseAsyncCmd implements DomainAndZon
     @Parameter(name = ApiConstants.DOMAIN_ID,
             type = CommandType.STRING,
             description = "the ID of the containing domain(s) as comma separated string, public for public offerings",
-            since = "4.23.0",
             length = 4096)
     private String domainIds;
 
