@@ -156,7 +156,7 @@ public class CloneBackupOfferingCmd extends BaseAsyncCmd implements DomainAndZon
 
     @Override
     public String getEventType() {
-        return EventTypes.EVENT_VM_BACKUP_CLONE_OFFERING;
+        return EventTypes.EVENT_VM_BACKUP_OFFERING_CLONE;
     }
 
     @Override
